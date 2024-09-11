@@ -25,7 +25,7 @@
 
     <tbody>
       <% @products.each do |product| %>
-        <tr class="<%= cycle('bg-green-50', 'vg-white') %>">
+        <tr class="<%= cycle('bg-green-50', 'bg-white') %>">
 
           <td class="px-2 py-3">
             <%= image_tag(product.image_url, class: 'w-40') %>
@@ -58,7 +58,7 @@
                                product,
                                class: 'hover:underline',
                                data: { turbo_method: :delete,
-                                       turbo_confirm: "Are you sure?:" } %>
+                                       turbo_confirm: "Are you sure?" } %>
                 </li>
               </ul> 
              </td>
