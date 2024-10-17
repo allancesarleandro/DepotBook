@@ -1,0 +1,56 @@
+pt:
+  number:
+    currency:
+      format:
+        unit: "R$"
+        precision: 2
+        separator: "."
+        format: "%u%n"  
+
+  layouts:
+    application:
+      title: "A Biblioteca Pragmatic"  
+      home: "Inicio"   
+      question: "Perguntas" 
+      news: "Noticias"
+      contact: "Contato"  
+
+  carts:
+    cart:        
+      title: "Seu Carrinho" 
+      empty: "Esvaziar Carrinho"
+      checkout: "Comprar"
+
+  store:
+    index:
+      title_html: "Seu Catalago Pragmatic"
+    product:
+      add_html: "Adicionar ao carrinho"
+
+  orders:
+    new:
+      legend: "Por Favor, Insira Seus Dados"
+    form:
+      name: "Nome"
+      address_html: "Endereço"
+      email: "E-mail"
+      pay_type: "Pagar com"
+      pay_prompt_html: "Selecionar o meio de pagamento"
+      submit: "Fazer Pedido"
+      pay_types:
+        check: "Check"
+        credit_card: "Cartão de Credito"
+        purchase_order: "Ordem de Compra"   
+      check_pay_type:
+        routing_number: "Roteamento #"
+        account_number: "Conta #"
+      credit_card_pay_type::
+        cc_number: "Número"
+        expirantion_date: "Expiração"
+      purchase_order_pay_type:
+        po_number: "Número" 
+  
+  thanks: "Obrigado pelo seu pedido"
+    
+
+    

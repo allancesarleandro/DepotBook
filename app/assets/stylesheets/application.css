@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+/* app/assets/stylesheets/application.css */
+
+
+ .sidebar {
+  width: 200px;
+  float: left;
+  padding: 10px;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.datetime {
+  margin-bottom: 15px;
+}
+
+#datetime-display {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+}
+
+.sidebar p {
+  margin: 0;
+  font-size: 12px;
+}
+ 
