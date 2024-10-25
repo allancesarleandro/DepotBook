@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get 'sessions/destroy'
 
   #STAR_HIGLIGHT
-  resources :support_requests, only: %i[ index updtade ]
+  resources :support_requests, only: %i[ index update ]
   #END_HIGLIGHT
   resources :users
   resources :products do

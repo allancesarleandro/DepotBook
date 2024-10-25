@@ -138,6 +138,7 @@ GEM
     nio4r (2.7.3)
     nokogiri (1.16.7-x64-mingw-ucrt)
       racc (~> 1.4)
+    pg (1.5.8-x64-mingw-ucrt)
     psych (5.1.2)
       stringio
     public_suffix (6.0.1)
@@ -240,6 +241,7 @@ DEPENDENCIES
   image_processing (~> 1.2)
   importmap-rails
   jbuilder
+  pg (~> 1.5)
   psych (~> 5.1.2)
   puma (~> 5.0)
   rails (~> 7.0.8, >= 7.0.8.4)

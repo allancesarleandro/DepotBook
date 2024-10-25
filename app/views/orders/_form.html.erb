@@ -2,7 +2,7 @@
   <% if order.errors.any? %>
     <div id="error_explanation" class="bg-red-50 text-red-500 px-3 py-2 font-medium rounded-lg mt-3">
       <h2><%=raw t('errors.template.header', count: @order.errors.count, 
-        model: t('activerecord.models.order')) %>.</h2>
+        model: t('activerecord.models.order')) %></h2>
       <p><%= t('errors.template.body')%></p>
 
       <ul>
@@ -33,8 +33,8 @@
         <%= form.label :pay_type %>
         <%= form.select :pay_type, Order.pay_types.keys.map {|key| [t(".pay_types.#{key}"), key] },
                         { prompt: t('.pay_prompt_html') },
-                        data_payment_target: 'selection',
-                        data_action: 'payment#showAdditionalFields',
+                        'data-payment-target' => 'selection',
+                        'data-action' => 'payment#showAdditionalFields',
                         class: "input-field" %>
       </div>
     
